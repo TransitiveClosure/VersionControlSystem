@@ -1,7 +1,7 @@
 ﻿using System.IO.Compression;
 using VersionControlSystem.Exceptions;
 using VersionControlSystem.Interfaces;
-namespace VersionControlSystem.Entities;
+namespace VersionControlSystem.Entities.Storage;
 
 public class ZipStorage : IStorage
 {

@@ -1,5 +1,7 @@
 ﻿using System.IO.Compression;
 using VersionControlSystem.Interfaces;
+using VersionControlSystem.Entities.Storage;
+using VersionControlSystem.Entities.RepositoryObjects;
 namespace VersionControlSystem.Entities;
 public class Archiver : IArchiver
 {

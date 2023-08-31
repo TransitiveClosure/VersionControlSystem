@@ -1,4 +1,4 @@
-﻿using VersionControlSystem.Entities;
+﻿using VersionControlSystem.Entities.Storage;
 using VersionControlSystem.Interfaces;
 namespace VersionControlSystem.Algorithms;
 

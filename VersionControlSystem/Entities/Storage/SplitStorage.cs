@@ -1,5 +1,5 @@
 ﻿using VersionControlSystem.Interfaces;
-namespace VersionControlSystem.Entities;
+namespace VersionControlSystem.Entities.Storage;
 
 public class SplitStorage : IStorage
 {

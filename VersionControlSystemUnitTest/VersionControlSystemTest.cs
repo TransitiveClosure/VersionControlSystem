@@ -1,7 +1,6 @@
-
-
 using VersionControlSystem.Algorithms;
 using VersionControlSystem.Entities;
+using VersionControlSystem.Entities.RepositoryObjects;
 using VersionControlSystem.Interfaces;
 using VersionControlSystem.Services;
 using Xunit;
@@ -9,7 +8,7 @@ using Zio.FileSystems;
 using Assert = NUnit.Framework.Assert;
 
 namespace VersionControlSystemUnitTest;
-public class BackupTaskTest
+public class VersionControlSystemTest
 {
     private BackupTask _backupTask = new BackupTask(new SingleAlgorithm(), new Repository(Path.Combine("D:", "Studying_at_the_university")), new Archiver());
 

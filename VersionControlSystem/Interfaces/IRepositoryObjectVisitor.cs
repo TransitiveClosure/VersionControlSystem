@@ -1,4 +1,4 @@
-using VersionControlSystem.Entities;
+using VersionControlSystem.Entities.RepositoryObjects;
 namespace VersionControlSystem.Interfaces;
 
 public interface IRepositoryObjectVisitor
