@@ -1,5 +1,5 @@
 ﻿using VersionControlSystem.Interfaces;
-namespace VersionControlSystem.Entities;
+namespace VersionControlSystem.Entities.RepositoryObjects;
 
 public class RepositoryFile : IRepositoryObject
 {

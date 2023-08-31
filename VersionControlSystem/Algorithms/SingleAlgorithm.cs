@@ -1,5 +1,4 @@
-﻿using VersionControlSystem.Entities;
-using VersionControlSystem.Interfaces;
+﻿using VersionControlSystem.Interfaces;
 namespace VersionControlSystem.Algorithms;
 
 public class SingleAlgorithm : IAlgorithm

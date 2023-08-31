@@ -1,7 +1,7 @@
 ﻿using VersionControlSystem.Exceptions;
 using VersionControlSystem.Interfaces;
 using Zio.FileSystems;
-namespace VersionControlSystem.Entities;
+namespace VersionControlSystem.Entities.RepositoryObjects;
 
 public class MemoryRepository : IRepository, IDisposable
 {
